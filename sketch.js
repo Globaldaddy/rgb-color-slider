@@ -1,15 +1,17 @@
+alert(hello);
 var rSlider;
 var gSlider;
 var bSlider;
 
 function setup(){
     createCanvas(600,400);
-      rSlider = createSlider(0, 255, 100);
-      rSlider.position(20, 20);
-      gSlider = createSlider(0, 255, 0);
-      gSlider.position(20, 50);
-      bSlider = createSlider(0, 255, 255);
-      bSlider.position(20, 80);
+    background(0);
+    rSlider = createSlider(0, 255, 100);
+    rSlider.position(20, 20);
+    gSlider = createSlider(0, 255, 0);
+    gSlider.position(20, 50);
+    bSlider = createSlider(0, 255, 255);
+    bSlider.position(20, 80);
 }
 
 
